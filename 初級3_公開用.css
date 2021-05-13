@@ -1,0 +1,280 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+body{
+    font-family:Arial,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,sans-serif;
+}
+a{
+    font-size:14px;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    padding:15px 30px;
+}
+.inner{
+    width:1200px;
+    padding:0 5%;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+h1{
+    background-color:#2A2A2A;
+    color:white;
+    padding:5px;
+    display:inline-block;
+    font-size:36px;
+}
+section{
+    text-align:center;
+}
+section h2{
+    font-size:24px;
+    margin-bottom:24px;
+}
+section p{
+    font-size:14px;
+    margin-bottom:36px;
+    width:560px;
+    display:inline-block;
+    line-height:20px;
+}
+.contents{
+    display:flex;
+    justify-content: space-between;
+}
+body > div{
+    margin-bottom:50px;
+}
+img{
+    width:500px;
+    height:500px;
+    border:1px solid rgba(0,0,0,0.5);
+}
+
+.block1{
+    height:920px;
+    background-image:url(flower\ life.jpg);
+    background-position-y:center;
+    padding:20px;
+    text-align:right;
+}
+
+.block2 .contents section{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding:10px 20px;
+    width:50%;
+}
+.block2 .contents section h2{
+    margin-bottom:10px;
+    font-size:20px;
+}
+.block2 .contents section p{
+    display:inline;
+}
+.block2 .contents .left{
+    position:relative;
+    width:49%;
+}
+.block2 .contents section{
+    position:absolute;
+    top:75%;
+    left:23%;
+}
+.block2 .contents .right{
+    position:relative;
+    width:49%;
+}
+.block2 .contents img{
+    object-fit: cover;
+}
+.block2 .contents .left img{
+    object-position:-220px 0;
+}
+.block2 .contents .right img{
+    object-position:-280px 0;
+}
+
+.block3{
+    height:520px;
+    background-image:url(雨.jpg);
+    border-top:1px solid rgba(0,0,0,0.2);
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    padding-top:50px;
+    background-repeat:no-repeat;
+    background-position:center 35%;
+    background-size:100%;
+    text-align:center;
+}
+.block3 section{
+    background-color:rgba(0,0,0,0);
+    margin-top:-5px;
+    display:inline-block;
+    padding:10px 10px 30px 10px;
+    text-shadow:1px 1px 1px white; 
+}
+
+.block4{
+    background-color:#F5F5F5;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+.block4 .contents{
+    align-items:center;
+    margin-bottom:30px;
+}
+.block4 section p{
+    text-align:left;
+    width:100%;
+}
+.block4 .left,.block4 .right{
+    width:48%;
+}
+.block4 .left section a{
+    display:inline-block;
+    margin-top:40px;
+}
+.block4 .contents img{
+    object-fit:cover;
+}
+
+.block5{
+    background-color:#333333;
+  font-size: 0.750rem;
+    color:white;
+    margin:0;
+}
+.block5 .contents{
+    padding:100px 0;
+}
+.block5 .contents div{
+    width:33%;
+    line-height:2;
+}
+.block5 .contents div:first-child {
+  padding: 30px 0;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:896px){
+    .inner{
+        width:100%;
+    }
+    .block1{
+        background-position-y:center;
+        background-position-x:-650px;
+    }
+    .block2 .contents .left img,.block2 .contents .right img{
+        width:100%;
+        object-position:-350px 0;
+    }
+    .block4 .contents img{
+        width:100%;
+    }
+}

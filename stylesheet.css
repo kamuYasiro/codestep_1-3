@@ -282,3 +282,21 @@ footer{
         width:100%;
     }
 }
+
+@media(max-width:480px){
+    .contents{
+        flex-wrap:wrap;
+    }
+    .block2 .contents div {
+        width: 100%;
+    }
+    .block4 .left,.block4 .right{
+        width:100%;
+    }
+    .block4 section a {
+    display: none;
+}
+    .block4 h2 {
+    margin-bottom: 10px;
+}
+}

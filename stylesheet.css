@@ -104,7 +104,7 @@ input, select {
 
 
 body{
-    font-family:Arial,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,sans-serif;
+    font-family:"游明朝",sans-serif;
 }
 a{
     font-size:14px;
@@ -131,13 +131,12 @@ section{
 }
 section h2{
     font-size:24px;
-    margin-bottom:24px;
 }
 section p{
     font-size:14px;
     margin-bottom:36px;
     display:inline-block;
-    line-height:20px;
+    line-height:24px;
 }
 .contents{
     display:flex;
@@ -166,9 +165,12 @@ img{
     padding:10px 20px;
     width:50%;
 }
+.block2 > .inner > section > h2{
+    margin-bottom:24px;
+}
 .block2 .contents section h2{
-    margin-bottom:10px;
-    font-size:20px;
+    font-size:24px;
+    padding:20px;
 }
 .block2 .contents section p{
     display:inline;
@@ -204,7 +206,7 @@ img{
     padding-top:50px;
     background-repeat:no-repeat;
     background-position:center 35%;
-    background-size:100%;
+    background-size:cover;
     text-align:center;
 }
 .block3 section{
@@ -231,12 +233,15 @@ img{
 .block4 .left,.block4 .right{
     width:48%;
 }
-.block4 .left section a{
+.block4 section a{
     display:inline-block;
     margin-top:40px;
 }
 .block4 .contents img{
     object-fit:cover;
+}
+.block4 h2{
+    font-size:60px;
 }
 
 .block5{

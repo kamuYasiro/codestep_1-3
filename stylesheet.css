@@ -290,7 +290,7 @@ footer{
     .block1{
         background-position-x:-760px;
     }
-    .block2 .contents div {
+    .block2 .contents .left,.block2 .contents .right {
         width: 100%;
     }
     .block4 .left,.block4 .right{

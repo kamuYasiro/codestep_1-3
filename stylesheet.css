@@ -290,6 +290,11 @@ footer{
     .block1{
         background-position-x:-760px;
     }
+    .block2 p{
+            font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    }
     .block2 .contents .left,.block2 .contents .right {
         width: 100%;
     }

@@ -287,6 +287,9 @@ footer{
     .contents{
         flex-wrap:wrap;
     }
+    .block1{
+        background-position-x:-760px;
+    }
     .block2 .contents div {
         width: 100%;
     }
@@ -298,5 +301,8 @@ footer{
 }
     .block4 h2 {
     margin-bottom: 10px;
+}
+    .block5 .contents div {
+    width: 100%;
 }
 }

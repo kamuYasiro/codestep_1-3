@@ -233,7 +233,7 @@ img{
 .block4 .left,.block4 .right{
     width:48%;
 }
-.block4 section a{
+.block4 section span{
     display:inline-block;
     margin-top:40px;
 }

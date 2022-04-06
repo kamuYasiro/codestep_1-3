@@ -192,10 +192,10 @@ img{
     object-fit: cover;
 }
 .block2 .contents .left img{
-    object-position:-168px 0;
+    object-position:-140px 0;
 }
 .block2 .contents .right img{
-    object-position:-280px 0;
+    object-position:-168px 0;
 }
 
 .block3{

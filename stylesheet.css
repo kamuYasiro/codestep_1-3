@@ -104,7 +104,7 @@ input, select {
 
 
 body{
-    font-family:"游明朝",sans-serif;
+    font-family:"sans-serif;
 }
 a{
     font-size:14px;
@@ -133,10 +133,10 @@ section h2{
     font-size:24px;
 }
 section p{
-    font-size:14px;
-    margin-bottom:36px;
+    font-size:16px;
+    margin-bottom:48px;
     display:inline-block;
-    line-height:24px;
+    line-height:1.6;
 }
 .contents{
     display:flex;
@@ -192,7 +192,7 @@ img{
     object-fit: cover;
 }
 .block2 .contents .left img{
-    object-position:-220px 0;
+    object-position:-168px 0;
 }
 .block2 .contents .right img{
     object-position:-280px 0;
